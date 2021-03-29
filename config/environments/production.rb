@@ -12,6 +12,9 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
+  # Hosts
+  config.hosts << "main-friends-wr7le49y8z1g6pul-gtw.qovery.io"
+
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
 
