@@ -5,9 +5,9 @@
 #### Used in this build
 
   Gem `pg 1.2.3`
-- Gem `bcrypt 3.1.7`
-- Gem `rack-cors`
-- Gem [`jwt-sessions`](https://github.com/tuwukee/jwt_sessions)
+  Gem `bcrypt 3.1.7`
+  Gem `rack-cors`
+  Gem [`jwt-sessions`](https://github.com/tuwukee/jwt_sessions)
 
 
 
