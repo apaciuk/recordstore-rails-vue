@@ -1,23 +1,36 @@
 <template>
   <div id="app">
-  <nav class="uk-navbar-container" uk-navbar>
+  <nav class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;">
     <div class="uk-navbar-left">
-<ul class="uk-navbar-nav">
-           <li class="uk-active"> <router-link to="/"> Home</router-link></li>
-            <li>
-                <a href="#">Parent</a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Active</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li><a href="#">Item</a></li>
-                    </ul>
-                </div>
+    <ul class="uk-navbar-nav">
+    <li>
+    <router-link to="/" class="uk-navbar-item uk-logo"> Home</router-link
+  
+      </li>
+         <li>
+         <router-link to="/about" class="uk-navbar-item">About</router-link>
+            
+               
             </li>
-<li> <router-link to="/about">About</router-link></li>
-</ul>
-</div>
+           
+        </ul>
+    </div>
+
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li>
+            <form class="uk-search uk-search-default">
+    <span uk-search-icon></span>
+    <input class="uk-search-input" type="search" placeholder="Search...">
+</form>
+            
+             
+     </li>
+        </ul>
+    </div>
 </nav>
+
+  
 <router-view></router-view>
 </div>
 </template>
