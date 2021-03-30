@@ -3,7 +3,7 @@
   <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
 <ul class="uk-navbar-nav">
-            <li class="uk-active"> <router-link to="/">Home</router-link> |</li>
+           <li class="uk-active"> <router-link to="/"> Home</router-link></li>
             <li>
                 <a href="#">Parent</a>
                 <div class="uk-navbar-dropdown">
@@ -18,6 +18,7 @@
 </ul>
 </div>
 </nav>
+<router-view></router-view>
 </div>
 </template>
 <script>
