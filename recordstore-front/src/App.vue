@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="uk-container" id="app">
   <nav class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;">
     <div class="uk-navbar-left">
     <ul class="uk-navbar-nav">
