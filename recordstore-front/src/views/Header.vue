@@ -15,7 +15,7 @@
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
            <li>
-    <router-link to="/" class="uk-navbar-item"> Sign Out</router-link>
+     <a href="#" @click.prevent="signOut" class="uk-navbar-item">Sign out</a>
     </li>
            <li>
     <router-link to="/artists" class="uk-navbar-item"> Artists</router-link>
@@ -47,5 +47,4 @@ margin-left: 30px;
 a.uk-navbar-item {
 color: lightgray;
 }
-
 </style>
