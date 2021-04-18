@@ -22,8 +22,19 @@
 <script>
 export default {
   name: 'Signin',
-  components: {
-  
-  }
+  data () {
+    return {
+      email: '',
+      password: '',
+      error: ''
+    }
+  },
+  created () {
+    this.checkSignedIn()
+  },
+  updated () {
+    this.checkSignedIn()
+  },
+  methods: {}
 }
 </script>
