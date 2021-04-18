@@ -1,8 +1,8 @@
 <template>
 <div class="uk-section uk-section-secondary">
 <div class="uk-container uk-container-small">
-<h3>This is the Signin page</h3>
-<form @submit.prevent="signin">
+<h3>This is the Signup page</h3>
+<form @submit.prevent="signup">
 <div v-if="error">{{error}}</div>
  <div class="uk-margin">
     <input type="email" v-model="email" class="uk-input uk-form-width-large" placeholder="Email address">
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: 'Signin',
+  name: 'Signup',
   components: {
   
   }
