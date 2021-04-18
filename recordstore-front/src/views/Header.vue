@@ -1,19 +1,7 @@
 <template>
-  <nav class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;">
+  <nav id="navbar" class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;">
     <div class="uk-navbar-left">
-    <ul class="uk-navbar-nav">
-    <li>
-    <router-link to="/" class="uk-navbar-item uk-logo"> Sign In</router-link>
-    </li>
-         <li>
-         <router-link to="/about" class="uk-navbar-item">About</router-link>
-    </li>
-           
-        </ul>
-    </div>
-
-    <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
+     <ul class="uk-navbar-nav">
             <li>
             <form class="uk-search uk-search-default">
     <span uk-search-icon></span>
@@ -23,7 +11,30 @@
              
      </li>
         </ul>
+   
+    </div>
+
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav">
+    <li>
+    <router-link to="/" class="uk-navbar-item uk-logo"> Sign In</router-link>
+    </li>
+         <li>
+         <router-link to="/signup" class="uk-navbar-item">Register</router-link>
+    </li>
+           
+        </ul> 
     </div>
 </nav>
 </div>
 </template>
+
+<style scoped>
+#navbar {
+background: #494f5d;
+}
+form.uk-search {
+margin-left: 30px;
+}
+
+</style>

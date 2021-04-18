@@ -1,18 +1,19 @@
 <template>
-<div class="uk-section uk-section-secondary">
+<div class="uk-section uk-section-primary">
 <div class="uk-container uk-container-small">
-<h3>This is the Signin page</h3>
+<h3>Sign In</h3>
 <form @submit.prevent="signin">
 <div v-if="error">{{error}}</div>
  <div class="uk-margin">
-    <input type="email" v-model="email" class="uk-input uk-form-width-large" placeholder="Email address">
+<input type="email" v-model="email" class="uk-input uk-form-width-large" placeholder="Email address">
 </div>
  <div class="uk-margin">
-    <input type="password" v-model="password" class="uk-input uk-form-width-large" placeholder="Password">
+<input type="password" v-model="password" class="uk-input uk-form-width-large" placeholder="Password">
 </div>
-<button type="submit" class="uk-button uk-button-primary uk-button-medium">Submit</button>
+<button type="submit" class="uk-button uk-button-danger">Sign In</button>
 <div>
-<router-link to="/signup" class="uk-button uk-button-link">Signup</router-link>
+<br />
+<router-link to="/signup" class="uk-button uk-button-secondary">Register</router-link>
 </div>
 </form>
 </div>

@@ -1,7 +1,7 @@
 <template>
-<div class="uk-section uk-section-secondary">
+<div class="uk-section uk-section-primary">
 <div class="uk-container uk-container-small">
-<h3>This is the Signup page</h3>
+<h3>Register</h3>
 <form @submit.prevent="signup">
 <div v-if="error">{{error}}</div>
  <div class="uk-margin">
@@ -10,9 +10,15 @@
  <div class="uk-margin">
     <input type="password" v-model="password" class="uk-input uk-form-width-large" placeholder="Password">
 </div>
-<button type="submit" class="uk-button uk-button-primary uk-button-medium">Submit</button>
+ <div class="uk-margin">
+  <input type="password" v-model="password_confirmation" class="uk-input uk-form-width-large" id="password_confirmation" placeholder="Password Confirmation">
+</div>
+<div class="uk-margin">
+<button type="submit" class="uk-button uk-button-danger">Register</button>
+</div>
 <div>
-<router-link to="/signup" class="uk-button uk-button-link">Signup</router-link>
+<br />
+<router-link to="/signin" class="uk-button uk-button-secondary">Sign In</router-link>
 </div>
 </form>
 </div>
