@@ -18,10 +18,10 @@
     <router-link to="/" class="uk-navbar-item"> Sign Out</router-link>
     </li>
            <li>
-    <router-link to="/" class="uk-navbar-item"> Artists</router-link>
+    <router-link to="/artists" class="uk-navbar-item"> Artists</router-link>
     </li>
        <li>
-    <router-link to="/" class="uk-navbar-item"> Records</router-link>
+    <router-link to="/records" class="uk-navbar-item"> Records</router-link>
     </li>
    
     <li>
@@ -45,6 +45,11 @@ form.uk-search {
 margin-left: 30px;
 }
 a.uk-navbar-item {
-
+color: lightgray;
+}
+a.uk-navbar-item:hover,
+a.uk-navbar-item:focus,
+a.uk-navbar-item:active {
+color: red!mportant;
 }
 </style>
