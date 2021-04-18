@@ -47,9 +47,5 @@ margin-left: 30px;
 a.uk-navbar-item {
 color: lightgray;
 }
-a.uk-navbar-item:hover,
-a.uk-navbar-item:focus,
-a.uk-navbar-item:active {
-color: red!mportant;
-}
+
 </style>
