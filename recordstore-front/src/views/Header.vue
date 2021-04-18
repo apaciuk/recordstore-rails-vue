@@ -3,7 +3,7 @@
     <div class="uk-navbar-left">
     <ul class="uk-navbar-nav">
     <li>
-    <router-link to="/" class="uk-navbar-item uk-logo"> Home</router-link
+    <router-link to="/" class="uk-navbar-item uk-logo"> Sign In</router-link>
     </li>
          <li>
          <router-link to="/about" class="uk-navbar-item">About</router-link>
