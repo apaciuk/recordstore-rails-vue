@@ -33,8 +33,12 @@
            
         </ul> 
     </div>
+
 </nav>
+
+
 </div>
+
 </template>
 
 <style scoped>

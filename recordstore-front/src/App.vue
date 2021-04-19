@@ -1,8 +1,6 @@
 <template>
 <div class="uk-container" id="app">
 <Header />
-
-  
 <router-view></router-view>
 </div>
 </template>
