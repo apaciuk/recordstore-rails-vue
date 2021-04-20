@@ -11,7 +11,7 @@
 <div>
 </div>
 </form>
-<hr />
+<hr class="uk-divider />
 <ul>
 <li>Test</li>
 </ul>
