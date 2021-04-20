@@ -17,9 +17,10 @@
            <li>
      <a href="#" @click.prevent="signOut" class="uk-navbar-item">Sign out</a>
     </li>
-           <li>
-    <router-link to="/artists" class="uk-navbar-item"> Artists</router-link>
+         <li>
+    <router-link to="/records" class="uk-navbar-item"> Records</router-link>
     </li>
+   
        <li>
     <router-link to="/records" class="uk-navbar-item"> Records</router-link>
     </li>
