@@ -15,8 +15,9 @@ This app at its core is simple. It will be an archive of vinyl records for sale 
 
 There will be two apps.
 
-- A Ruby on Rails backend - This will handle our data, sessions, and authentication.
-- A Vue.js frontend - This will be the view layer but also the one responsible for sending and receiving data to our rails-based backend. The front-end will run on a different instance using the [Vue-CLI](https://cli.vuejs.org/) to help us set up an app.
+- A Ruby on Rails backend - This will handle our data, sessions, and authentication and uses PostgreSQL
+- A Vue.js frontend - This will be the view layer but also the one responsible for sending and receiving data to our rails-based backend. The front-end (recordstore-front) will run on a different instance using the [Vue-CLI](https://cli.vuejs.org/) to help us set up an app.
+Also an alternative version of this (store-front) with Nuxt JS [Nuxt.js docs](https://nuxtjs.org). to give us more options .
 
 
 ### Is this normal?
